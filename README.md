@@ -1,5 +1,10 @@
 # Welcome!
 
+>[!Important]
+> Currently at: **Exercise 1.5: The Bouncing Ball** inside `02_Hello_World.md` (have not yet started it)
+
+#
+
 When I first learned Python nearly 27 years ago, I was immediately
 struck by how I could productively apply it to all sorts of messy work
 projects. Fast-forward a decade and I found myself teaching others the
