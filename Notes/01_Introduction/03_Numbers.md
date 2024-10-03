@@ -8,10 +8,10 @@ This section discusses mathematical calculations.
 
 Python has 4 types of numbers:
 
-* Booleans
-* Integers
-* Floating point
-* Complex (imaginary numbers)
+- Booleans
+- Integers
+- Floating point
+- Complex (imaginary numbers)
 
 ### Booleans (bool)
 
@@ -31,7 +31,7 @@ if d == 0:
     print('d is False')
 ```
 
-*But, don't write code like that. It would be odd.*
+_But, don't write code like that. It would be odd._
 
 ### Integers (int)
 
@@ -118,7 +118,6 @@ d = math.tan(x)
 e = math.log(x)
 ```
 
-
 ### Comparisons
 
 The following comparison / relational operators work with numbers:
@@ -169,14 +168,14 @@ Try it out.
 
 ## Exercises
 
-Reminder: These exercises assume you are working in the `practical-python/Work` directory. Look
+Reminder: These exercises assume you are working in the `practical-python/Work/01_Introduction/01_03_Numbers` directory. Look
 for the file `mortgage.py`.
 
 ### Exercise 1.7: Dave's mortgage
 
 Dave has decided to take out a 30-year fixed rate mortgage of $500,000
 with Guido’s Mortgage, Stock Investment, and Bitcoin trading
-corporation.  The interest rate is 5% and the monthly payment is
+corporation. The interest rate is 5% and the monthly payment is
 $2684.11.
 
 Here is a program that calculates the total amount that Dave will have
@@ -248,7 +247,7 @@ While you’re at it, fix the program to correct for the overpayment that occurs
 
 ### Exercise 1.12: A Mystery
 
-`int()` and `float()` can be used to convert numbers.  For example,
+`int()` and `float()` can be used to convert numbers. For example,
 
 ```python
 >>> int("123")
