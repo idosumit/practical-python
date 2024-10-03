@@ -21,13 +21,13 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 Expert programmers usually have no problem using the interpreter in
-this way, but it's not so user-friendly for beginners.  You may be using
-an environment that provides a different interface to Python.  That's fine,
+this way, but it's not so user-friendly for beginners. You may be using
+an environment that provides a different interface to Python. That's fine,
 but learning how to run Python terminal is still a useful skill to know.
 
 ### Interactive Mode
 
-When you start Python, you get an *interactive* mode where you can experiment.
+When you start Python, you get an _interactive_ mode where you can experiment.
 
 If you start typing statements, they will run immediately. There is no
 edit/compile/run/debug cycle.
@@ -48,11 +48,11 @@ hello world
 >>>
 ```
 
-This so-called *read-eval-print-loop* (or REPL) is very useful for debugging and exploration.
+This so-called _read-eval-print-loop_ (or REPL) is very useful for debugging and exploration.
 
 **STOP**: If you can't figure out how to interact with Python, stop what you're doing
-and figure out how to do it.  If you're using an IDE, it might be hidden behind a
-menu option or other window.  Many parts of this course assume that you can
+and figure out how to do it. If you're using an IDE, it might be hidden behind a
+menu option or other window. Many parts of this course assume that you can
 interact with the interpreter.
 
 Let's take a closer look at the elements of the REPL:
@@ -75,7 +75,7 @@ The underscore `_` holds the last result.
 >>>
 ```
 
-*This is only true in the interactive mode.* You never use `_` in a program.
+_This is only true in the interactive mode._ You never use `_` in a program.
 
 ### Creating programs
 
@@ -153,8 +153,8 @@ bash % python3 sears.py
 ...
 21 1048576 115.34336
 22 2097152 230.68672
-Number of days 23 
-Number of bills 4194304 
+Number of days 23
+Number of bills 4194304
 Final height 461.37344
 ```
 
@@ -201,7 +201,7 @@ height2 = 442 # valid
 
 ### Types
 
-Variables do not need to be declared with the type of the value.  The type
+Variables do not need to be declared with the type of the value. The type
 is associated with the value on the right hand side, not name of the variable.
 
 ```python
@@ -274,12 +274,12 @@ readability. It does not affect the execution.
 
 ### Indentation best practices
 
-* Use spaces instead of tabs.
-* Use 4 spaces per level.
-* Use a Python-aware editor.
+- Use spaces instead of tabs.
+- Use 4 spaces per level.
+- Use a Python-aware editor.
 
 Python's only requirement is that indentation within the same block
-be consistent.   For example, this is an error:
+be consistent. For example, this is an error:
 
 ```python
 while num_bills * bill_thickness < sears_height:
@@ -388,16 +388,16 @@ This is also called a "no-op" statement. It does nothing. It serves as a placeho
 ## Exercises
 
 This is the first set of exercises where you need to create Python
-files and run them.  From this point forward, it is assumed that you
-are editing files in the `practical-python/Work/` directory.  To help
+files and run them. From this point forward, it is assumed that you
+are editing files in the `practical-python/Work/` directory. To help
 you locate the proper place, a number of empty starter files have
-been created with the appropriate filenames.  Look for the file
-`Work/bounce.py` that's used in the first exercise.
+been created with the appropriate filenames. Look for the file
+`Work/01_Introduction/bounce.py` that's used in the first exercise.
 
 ### Exercise 1.5: The Bouncing Ball
 
 A rubber ball is dropped from a height of 100 meters and each time it
-hits the ground, it bounces back up to 3/5 the height it fell.  Write
+hits the ground, it bounces back up to 3/5 the height it fell. Write
 a program `bounce.py` that prints a table showing the height of the
 first 10 bounces.
 
@@ -416,7 +416,7 @@ Your program should make a table that looks something like this:
 10 0.6046617599999998
 ```
 
-*Note: You can clean up the output a bit if you use the round() function. Try using it to round the output to 4 digits.*
+_Note: You can clean up the output a bit if you use the round() function. Try using it to round the output to 4 digits._
 
 ```code
 1 60.0
@@ -433,7 +433,7 @@ Your program should make a table that looks something like this:
 
 ### Exercise 1.6: Debugging
 
-The following code fragment contains code from the Sears tower problem.  It also has a bug in it.
+The following code fragment contains code from the Sears tower problem. It also has a bug in it.
 
 ```python
 # sears.py
@@ -469,10 +469,9 @@ crashes, the very last line of the traceback message is the actual reason why th
 the program crashed. Above that, you should see a fragment of source code and then
 an identifying filename and line number.
 
-* Which line is the error?
-* What is the error?
-* Fix the error
-* Run the program successfully
-
+- Which line is the error?
+- What is the error?
+- Fix the error
+- Run the program successfully
 
 [Contents](../Contents.md) \| [Previous (1.1 Python)](01_Python.md) \| [Next (1.3 Numbers)](03_Numbers.md)

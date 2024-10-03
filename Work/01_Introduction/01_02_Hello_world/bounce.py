@@ -39,8 +39,8 @@ height = 100
 bounce = 0
 
 while bounce < 10:
-    height = round((3/5 * height), 4)
+    height = round((height * (3 / 5)), 4)
     bounce += 1
-    print(bounce, height)
+    print(f'{bounce} {height}')
 
 # This works!

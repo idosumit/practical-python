@@ -11,7 +11,3 @@ while num_bills * bill_thickness < sears_height:
 print('Number of days', day)
 print('Number of bills', num_bills)
 print('Final height', num_bills * bill_thickness)
-
-# The error is in line 8. The error is that we have an undefined word 'days'.
-# It should be changed to 'day'.
-# Runs successfully!
