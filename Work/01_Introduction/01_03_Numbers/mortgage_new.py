@@ -9,7 +9,7 @@ extra_payment_end_month = 108
 extra_payment = 1000
 
 while principal > 0: 
-    while extra_payment_start_month < time <= extra_payment_end_month:
+    while extra_payment_start_month <= time <= extra_payment_end_month:
         principal = principal * (1+rate/12) - payment - extra_payment
         total_paid = total_paid + payment + extra_payment
         time += 1
