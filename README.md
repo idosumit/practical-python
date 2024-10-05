@@ -1,7 +1,7 @@
 # Welcome!
 
 > [!Important]
-> Currently completed: **Exercise 1.10** inside `01_Introduction/03_Numbers.md`
+> Currently on: **More string methods** inside `01_Introduction/04_Strings.md`
 
 #
 
