@@ -1,7 +1,7 @@
 # Welcome!
 
 > [!Important]
-> Currently on: **More string methods** inside `01_Introduction/04_Strings.md`
+> Currently at the beginning of `01_Introduction/05_Lists.md`
 
 #
 
