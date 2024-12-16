@@ -1,9 +1,9 @@
 # Welcome!
 
 > [!Important]
-> Currently at the beginning of `01_Introduction/06_Files.md`
+> Currently at `01_Introduction/05_Lists.md, exercise 1.19`
 
-#{}
+#
 
 When I first learned Python nearly 27 years ago, I was immediately
 struck by how I could productively apply it to all sorts of messy work
