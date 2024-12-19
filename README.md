@@ -1,7 +1,7 @@
 # Welcome!
 
 > [!Important]
-> Currently at `01_Introduction/05_Lists.md, exercise 1.19`
+> Currently done with `01_Introduction`, should proceed with `02_Working_with_data` from here
 
 #
 

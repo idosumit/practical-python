@@ -1,3 +1,5 @@
+# 1.19
+
 symbols = 'HPQ, AAPL, IBM, MSFT, YHOO, DOA, GOOG'
 
 symlist = symbols.split(',')
