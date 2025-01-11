@@ -1,7 +1,7 @@
 # Welcome!
 
 > [!Important]
-> Currently at `02_Working_with_data/02_01_Datatypes`
+> Currently at `02_Working_with_data/02_02_Containers`
 
 #
 

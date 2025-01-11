@@ -109,6 +109,9 @@ name, shares, price = s
 print('Cost', shares * price)
 ```
 
+> [!NOTE]
+> My note: this 'unpacking' looks quite similar to the JS destructuring!
+
 The number of variables on the left must match the tuple structure.
 
 ```python
