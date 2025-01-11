@@ -1,7 +1,7 @@
 # Welcome!
 
 > [!Important]
-> Currently done with `01_Introduction`, should proceed with `02_Working_with_data` from here
+> Currently at `02_Working_with_data/02_01_Datatypes`
 
 #
 
