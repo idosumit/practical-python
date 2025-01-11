@@ -2,6 +2,8 @@
 
 # 2.2 Containers
 
+Update: changed the default branch to `main`.
+
 This section discusses lists, dictionaries, and sets.
 
 ### Overview
