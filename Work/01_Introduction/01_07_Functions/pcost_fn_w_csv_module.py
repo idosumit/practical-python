@@ -16,12 +16,13 @@ name,shares,price
 import csv
 import sys
 
+
 def portfolio_cost(filename):
-    with open(filename, 'rt') as f:
+    with open(filename, "rt") as f:
         rows = csv.reader(f)
         headers = next(rows)
         every_row = []
-    
+
         total_cost = 0
 
         for row in rows:
@@ -31,15 +32,16 @@ def portfolio_cost(filename):
             try:
                 row_cost = float(row[-1]) * float(row[-2])
             except ValueError:
-                print('empty strings found in the row array:', row)
+                print("empty strings found in the row array:", row)
             total_cost += row_cost
-    
+
     return total_cost
+
 
 if len(sys.argv) == 2:
     filename = sys.argv[1]
 else:
-    filename = 'Data/portfolio.csv'
+    filename = "Data/portfolio.csv"
 
 cost = portfolio_cost(filename)
 print("Total cost:", cost)
