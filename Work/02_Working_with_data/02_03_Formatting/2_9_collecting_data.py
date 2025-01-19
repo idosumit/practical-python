@@ -66,7 +66,7 @@ def make_report(portfolio, prices):
         shares = i["shares"]
         market_price = prices[i["name"]]
         paid_price = i["price"]
-        change = paid_price * shares - market_price * shares
+        change = paid_price - market_price
         row = (name, shares, market_price, change)
         report.append(row)
     return report
