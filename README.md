@@ -1,7 +1,7 @@
 # Welcome!
 
 > [!Important]
-> Currently at `02_Working_with_data/02_02_Containers`
+> Currently starting `02_Working_with_data/02_05_Collections`
 
 #
 
