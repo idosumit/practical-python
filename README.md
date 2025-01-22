@@ -1,7 +1,7 @@
 # Welcome!
 
 > [!Important]
-> Currently starting `02_Working_with_data/02_05_Collections`
+> Currently starting `03_Program_organization/01_Script`
 
 #
 
